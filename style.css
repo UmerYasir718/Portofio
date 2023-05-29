@@ -1,3 +1,37 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #202020;
+}
+.bar{
+	outline: 2px solid white;
+	background-color:  white;
+}
+.header1 {
+	background-color: black;
+	color: white;
+}
+.header1 a {
+	color: white;
+}
+.navbar-toggler-icon.icon {
+	color: white; /* Set the desired color here */
+  }
+  
+.line a {
+	text-decoration: underline;
+	color: white;
+}
+.Picture img {
+	border: 3px solid white;
+	/* box-shadow: 2px 2px 10px 3px white; */
+}
+.box1{
+	background-color: red;
+}
 @media screen and (min-width:0px) and (max-width:420px) {
 	.ref{
 		margin-top: 400px;
@@ -16,38 +50,3 @@
 		margin-top: -800px;
 	}
 }
-/* .page{
-    margin-left: 75%;
-} */
- /* .header{
-    background-color: #000000;
-    color: white;
-    /* text-decoration: underline;
-} */
-/* .Container{
-   background-color: #202020;
-} */ 
-/* .header{
-	background-color:black;
-	color: white;
-	padding: 15px;
-	font-family: 'Lato', sans-serif;
-}
-.logo{
-	margin-left: 90px;
-	margin-bottom: -20px;
-}
-.logo img{
-	width: 2%;
-	margin-bottom: -8px;
-	border: 3px solid white;
-	border-radius: 50px;
-}
-.pages a {
-	color: white;
-}
-.pages{
-	
-	margin-left: 70%;
-	font-size: 14px;
-} */
