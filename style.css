@@ -1,3 +1,21 @@
+@media screen and (min-width:0px) and (max-width:420px) {
+	.ref{
+		margin-top: 400px;
+		align-items: center;
+	}
+	.Picture img {
+		margin-top: -700px;
+	}
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+	.ref{
+		margin-top: 500px;
+		align-items: center;
+	}
+	.Picture img {
+		margin-top: -800px;
+	}
+}
 /* .page{
     margin-left: 75%;
 } */
