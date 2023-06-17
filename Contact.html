@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="i.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <title>Contact Me</title>
 </head>
 
@@ -33,42 +34,84 @@
                     <a class="nav-link text-light" href="About.html">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-primary" href="Contact.html">Contact Me<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-primary" href="Contact.html">Contact Me<span
+                            class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class=" container mx-auto ">
         <h2 class="text-warning">Contact</h2>
-        <form class="form-group text-light">
-            <div class="alert box1" role="alert">
-                Feel Easy to Write
+        <div class="row featurette">
+            <div class="col-md-4">
+                <div class="box bg-secondary text-center font-weight-bold"><br>
+                    <h2><i class="bi bi-geo-alt text-primary"><br></i></h2>
+                    <p class="text-light">Lahore, Pakistan</p>
+                </div>
+                <div class="box bg-secondary text-center font-weight-bold"><br>
+                    <h2><i class="bi bi-telephone text-primary"></i></h2>
+                    <p class="text-light">+92 3314911420</p>
+                </div>
+                <div class="box bg-secondary text-center font-weight-bold"><br>
+                    <h2><i class="bi bi-envelope text-primary"><br></i></h2>
+                    <p class="text-light">umeryasir718@gmail.com</p>
+                </div>
+                <div class="box bg-secondary text-center font-weight-bold"><br>
+                    <h2><i class="bi bi-check-circle text-primary"></i></h2>
+                    <p class="text-light">Freelance Available</p>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput">Name:</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" required>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
-                    required>
-            </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Subject:</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Subject" required>
-            </div>
+            <div class="col-md-8">
+                <div class="mapouter featurette-image img-fluid mx-auto border" width="100%" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=673&amp;height=150&amp;hl=en&amp;q=Phool Nagar, Lahore&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://embed-googlemap.com">embed google maps</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 100%;
+                            height: 150px;
+                        }
 
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 100%;
+                            height: 150px;
+                        }
+
+                        .gmap_iframe {
+                            height: 150px !important;
+                        }
+                    </style>
+                </div><br>
+                <div class="h3 text-light">How Can I <span class="text-primary">Help You?</span></div>
+                <form class="form-group text-light row gy-2 gx-3 align-items-center">
+                    <div class="col-md-6 form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name"
+                            required><br>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Email Address" required> <br>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Subject"
+                            required>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <textarea type="text" class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                            rows="7"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-outline-primary border-primary">Send Message</button>
+                    </div>
+                </form>
             </div>
-            <!-- <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">1</label>
-            </div> -->
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
-        </form>
-    </div><br>
+        </div>
+    </div>
     <footer class="mastfoot mt-auto d-flex justify-content-center align-items-center  mx-auto bg-dark">
         <div class="inner text-light">
             <p>© 2020 All Rights Reserved to Developers</p>
