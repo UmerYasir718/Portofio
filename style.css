@@ -50,3 +50,13 @@ body {
 		margin-top: -800px;
 	}
 }
+
+
+
+/* ---contact Page--- */
+
+.form-control{
+	background-color: #202020; 
+	color: white;
+	font-weight: bold;
+}
