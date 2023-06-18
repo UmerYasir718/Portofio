@@ -43,7 +43,7 @@ body {
 }
 @media screen and (min-width: 421px) and (max-width: 768px) {
 	.ref{
-		margin-top: 500px;
+		margin-top: 520px;
 		align-items: center;
 	}
 	.Picture img {
@@ -51,12 +51,93 @@ body {
 	}
 }
 
-
-
+/* ---About Page--- */
+@media screen and (min-width:0px) and (max-width:420px) {
+	.conbtn{
+		margin-top: 450px;
+		align-items: center;
+	}
+	.pic img {
+		margin-top: -600px;
+		align-items: center;
+	}
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+	.conbtn{
+		margin-top: 400px;
+		align-items: center;
+	}
+	.pic img {
+		margin-top: -630px;
+		align-items: center;
+	}
+}
 /* ---contact Page--- */
 
 .form-control{
 	background-color: #202020; 
 	color: white;
 	font-weight: bold;
+}
+/* ---About Page--- */
+/* ---MyResume Page--- */
+.S1{
+	width:100%;
+	height:10px;
+	background-color:white;
+	border-radius: 50px;
+	color: black;
+	outline: 2px solid #007BFF;
+	text-align: right;
+	padding: 2px;
+}
+.HtmlSkill{
+   width: 95%;
+   height:7px;
+   background-color: #007BFF;
+   border-radius: 50px;
+
+}
+.CSSSkill{
+	width: 80%;
+	height:7px;
+	background-color: #007BFF;
+	border-radius: 50px;
+}
+.JavaScriptSkill{
+	width: 45%;
+	height:7px;
+	background-color: #007BFF;
+	border-radius: 50px;
+}
+.BootStrap{
+	width: 90%;
+	height:7px;
+	background-color: #007BFF;
+	border-radius: 50px;
+ 
+ }
+ .Cpp{
+	width: 85%;
+	height:7px;
+	background-color: #007BFF;
+	border-radius: 50px;
+ 
+ }
+.line1 {
+	width: 1px;
+	height: 300px;
+	background-color: white;
+	display: inline-block;
+	margin: 0 10px;
+  }
+.percentage{
+    margin-top: -20px;
+	color: lightgreen;
+}
+.lab{
+	color: lightgreen;
+}
+.Degree{
+	color: lightgreen;
 }
