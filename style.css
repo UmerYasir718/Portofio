@@ -133,11 +133,15 @@ body {
   }
 .percentage{
     margin-top: -20px;
-	color: lightgreen;
+	color: white;
+	font-weight: lighter;
 }
 .lab{
-	color: lightgreen;
+	color: white;
 }
 .Degree{
 	color: lightgreen;
+}
+.difference{
+	color: white;
 }
