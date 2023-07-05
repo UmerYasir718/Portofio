@@ -4,14 +4,14 @@
 }
 
 body {
-	background-color: #202020;
+	background-color: #6C757D;
 }
 .bar{
 	outline: 2px solid white;
 	background-color:  white;
 }
 .header1 {
-	background-color: black;
+	background-color: #343A40;
 	color: white;
 }
 .header1 a {
@@ -143,5 +143,5 @@ body {
 	color: lightgreen;
 }
 .heading{
-	color: #007BFF;
+	color: blue;
 }
